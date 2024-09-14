@@ -1,0 +1,17 @@
+.new-release {
+    padding: 20px;
+  }
+  
+  .new-release h2 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .anime-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+  }
+ 

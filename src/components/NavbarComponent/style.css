@@ -1,0 +1,50 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1c1c1c;
+    padding: 10px 20px;
+    color:#FFFFFF;
+  }
+  
+  .navbar-brand {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 32px;
+  }
+  .navbar-links{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .navbar-links a {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    margin-right: 100px;
+    color: #868686;
+    text-decoration: none;
+  }
+  
+  .navbar-search {
+    width: 375px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-search input {
+    width: 100%;
+    background-color: #374151;
+    height: 48px;
+    padding: 5px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 20px;
+  }
+  input::placeholder{
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 7%;
+  }
